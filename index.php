@@ -13,8 +13,9 @@
 <body>
 
     <div class="jumbotron text-center">
-        <h1>Hello Moci Team Geeting of the Day!</h1>
-        <p>Resize this responsive page to see the effect!</p>
+        <h1><?php getenv("env"); ?>
+            <h1>Hello Moci Team Geeting of the Day!</h1>
+            <p>Resize this responsive page to see the effect!</p>
     </div>
 
 
